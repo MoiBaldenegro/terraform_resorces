@@ -1,0 +1,24 @@
+# Archivos de estado de Terraform //
+*.tfstate
+*.tfstate.backup
+
+# Carpeta .terraform generada por terraform init
+.terraform/
+
+# Archivos de registro y archivos temporales generados durante la ejecución de Terraform
+terraform.log
+terraform.tfstate.lock.info
+
+# Archivos de configuración específicos del entorno (si los tienes)
+*.tfvars
+
+# Archivos de configuración local o sensibles
+.env
+secrets.yml
+
+# Archivos de compilación o generados por IDEs
+.DS_Store
+.idea/
+*.log
+
+//
